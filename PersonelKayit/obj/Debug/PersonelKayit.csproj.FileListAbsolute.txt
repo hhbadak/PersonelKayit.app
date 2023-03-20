@@ -1,0 +1,12 @@
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.csproj.AssemblyReference.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.csproj.SuggestedBindingRedirects.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.HomeScreen.resources
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.Properties.Resources.resources
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.csproj.GenerateResource.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.csproj.CoreCompileInputs.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\bin\Debug\PersonelKayit.exe.config
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\bin\Debug\PersonelKayit.exe
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\bin\Debug\PersonelKayit.pdb
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.exe
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.pdb
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.PersonalAdd.resources
