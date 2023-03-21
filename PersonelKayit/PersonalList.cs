@@ -16,5 +16,10 @@ namespace PersonelKayit
         {
             InitializeComponent();
         }
+
+        private void PersonalList_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

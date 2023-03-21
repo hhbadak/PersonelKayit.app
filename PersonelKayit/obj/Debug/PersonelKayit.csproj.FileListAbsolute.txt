@@ -10,3 +10,4 @@ C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\bin\Debu
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.exe
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.pdb
 C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.PersonalAdd.resources
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\PersonelKayit.app\PersonelKayit\obj\Debug\PersonelKayit.PersonalList.resources

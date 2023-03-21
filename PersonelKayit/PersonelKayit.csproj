@@ -84,6 +84,9 @@
     <EmbeddedResource Include="PersonalAdd.resx">
       <DependentUpon>PersonalAdd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PersonalList.resx">
+      <DependentUpon>PersonalList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
