@@ -41,24 +41,25 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.tb_name = new System.Windows.Forms.TextBox();
+            this.tb_surname = new System.Windows.Forms.TextBox();
+            this.tb_nationalNumber = new System.Windows.Forms.MaskedTextBox();
+            this.mtb_phoneNumber = new System.Windows.Forms.MaskedTextBox();
+            this.cb_placeBirth = new System.Windows.Forms.ComboBox();
+            this.cb_drivingLicence = new System.Windows.Forms.ComboBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rb_widow = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.rb_married = new System.Windows.Forms.RadioButton();
+            this.rb_unmarried = new System.Windows.Forms.RadioButton();
+            this.mtb_childNumber = new System.Windows.Forms.MaskedTextBox();
+            this.cb_drivingYes = new System.Windows.Forms.CheckBox();
+            this.mc_birthDate = new System.Windows.Forms.MonthCalendar();
+            this.mc_dateWorkStart = new System.Windows.Forms.MonthCalendar();
+            this.tb_adress = new System.Windows.Forms.TextBox();
+            this.cb_drivingNo = new System.Windows.Forms.CheckBox();
+            this.cb_departments = new System.Windows.Forms.ComboBox();
+            this.btn_add = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -230,83 +231,83 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "İşe Başlama Tarihi";
             // 
-            // textBox1
+            // tb_name
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tb_name.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(128, 13);
-            this.textBox1.MaximumSize = new System.Drawing.Size(250, 20);
-            this.textBox1.MinimumSize = new System.Drawing.Size(200, 20);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(200, 20);
-            this.textBox1.TabIndex = 0;
+            this.tb_name.Location = new System.Drawing.Point(128, 13);
+            this.tb_name.MaximumSize = new System.Drawing.Size(250, 20);
+            this.tb_name.MinimumSize = new System.Drawing.Size(200, 20);
+            this.tb_name.Name = "tb_name";
+            this.tb_name.Size = new System.Drawing.Size(200, 20);
+            this.tb_name.TabIndex = 0;
             // 
-            // textBox2
+            // tb_surname
             // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tb_surname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(128, 39);
-            this.textBox2.MaximumSize = new System.Drawing.Size(250, 20);
-            this.textBox2.MinimumSize = new System.Drawing.Size(200, 20);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 1;
+            this.tb_surname.Location = new System.Drawing.Point(128, 39);
+            this.tb_surname.MaximumSize = new System.Drawing.Size(250, 20);
+            this.tb_surname.MinimumSize = new System.Drawing.Size(200, 20);
+            this.tb_surname.Name = "tb_surname";
+            this.tb_surname.Size = new System.Drawing.Size(200, 20);
+            this.tb_surname.TabIndex = 1;
             // 
-            // maskedTextBox1
+            // tb_nationalNumber
             // 
-            this.maskedTextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tb_nationalNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.maskedTextBox1.Location = new System.Drawing.Point(128, 64);
-            this.maskedTextBox1.Mask = "00000000000";
-            this.maskedTextBox1.MaximumSize = new System.Drawing.Size(100, 20);
-            this.maskedTextBox1.MinimumSize = new System.Drawing.Size(71, 20);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(71, 20);
-            this.maskedTextBox1.TabIndex = 2;
-            this.maskedTextBox1.ValidatingType = typeof(int);
+            this.tb_nationalNumber.Location = new System.Drawing.Point(128, 64);
+            this.tb_nationalNumber.Mask = "00000000000";
+            this.tb_nationalNumber.MaximumSize = new System.Drawing.Size(100, 20);
+            this.tb_nationalNumber.MinimumSize = new System.Drawing.Size(71, 20);
+            this.tb_nationalNumber.Name = "tb_nationalNumber";
+            this.tb_nationalNumber.Size = new System.Drawing.Size(71, 20);
+            this.tb_nationalNumber.TabIndex = 2;
+            this.tb_nationalNumber.ValidatingType = typeof(int);
             // 
-            // maskedTextBox2
+            // mtb_phoneNumber
             // 
-            this.maskedTextBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.mtb_phoneNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.maskedTextBox2.Location = new System.Drawing.Point(128, 89);
-            this.maskedTextBox2.Mask = "+90(999) 000-0000";
-            this.maskedTextBox2.MaximumSize = new System.Drawing.Size(150, 20);
-            this.maskedTextBox2.MinimumSize = new System.Drawing.Size(100, 20);
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(100, 20);
-            this.maskedTextBox2.TabIndex = 3;
-            this.maskedTextBox2.Text = "90";
+            this.mtb_phoneNumber.Location = new System.Drawing.Point(128, 89);
+            this.mtb_phoneNumber.Mask = "+90(999) 000-0000";
+            this.mtb_phoneNumber.MaximumSize = new System.Drawing.Size(150, 20);
+            this.mtb_phoneNumber.MinimumSize = new System.Drawing.Size(100, 20);
+            this.mtb_phoneNumber.Name = "mtb_phoneNumber";
+            this.mtb_phoneNumber.Size = new System.Drawing.Size(100, 20);
+            this.mtb_phoneNumber.TabIndex = 3;
+            this.mtb_phoneNumber.Text = "90";
             // 
-            // comboBox1
+            // cb_placeBirth
             // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cb_placeBirth.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(128, 117);
-            this.comboBox1.MaximumSize = new System.Drawing.Size(150, 0);
-            this.comboBox1.MinimumSize = new System.Drawing.Size(100, 0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 4;
+            this.cb_placeBirth.FormattingEnabled = true;
+            this.cb_placeBirth.Location = new System.Drawing.Point(128, 117);
+            this.cb_placeBirth.MaximumSize = new System.Drawing.Size(150, 0);
+            this.cb_placeBirth.MinimumSize = new System.Drawing.Size(100, 0);
+            this.cb_placeBirth.Name = "cb_placeBirth";
+            this.cb_placeBirth.Size = new System.Drawing.Size(100, 21);
+            this.cb_placeBirth.TabIndex = 4;
             // 
-            // comboBox2
+            // cb_drivingLicence
             // 
-            this.comboBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cb_drivingLicence.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(16, 401);
-            this.comboBox2.MaximumSize = new System.Drawing.Size(300, 0);
-            this.comboBox2.MinimumSize = new System.Drawing.Size(278, 0);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(278, 21);
-            this.comboBox2.TabIndex = 14;
+            this.cb_drivingLicence.FormattingEnabled = true;
+            this.cb_drivingLicence.Location = new System.Drawing.Point(16, 401);
+            this.cb_drivingLicence.MaximumSize = new System.Drawing.Size(300, 0);
+            this.cb_drivingLicence.MinimumSize = new System.Drawing.Size(278, 0);
+            this.cb_drivingLicence.Name = "cb_drivingLicence";
+            this.cb_drivingLicence.Size = new System.Drawing.Size(278, 21);
+            this.cb_drivingLicence.TabIndex = 14;
             // 
             // radioButton1
             // 
@@ -316,25 +317,25 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(128, 260);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.Size = new System.Drawing.Size(52, 17);
             this.radioButton1.TabIndex = 6;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.Text = "Kadın";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rb_widow
             // 
-            this.radioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rb_widow.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(310, 306);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 10;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton1";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rb_widow.AutoSize = true;
+            this.rb_widow.Location = new System.Drawing.Point(310, 306);
+            this.rb_widow.Name = "rb_widow";
+            this.rb_widow.Size = new System.Drawing.Size(41, 17);
+            this.rb_widow.TabIndex = 10;
+            this.rb_widow.TabStop = true;
+            this.rb_widow.Text = "Dul";
+            this.rb_widow.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -344,144 +345,155 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(219, 260);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(85, 17);
+            this.radioButton3.Size = new System.Drawing.Size(53, 17);
             this.radioButton3.TabIndex = 7;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "radioButton1";
+            this.radioButton3.Text = "Erkek";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // rb_married
             // 
-            this.radioButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rb_married.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(128, 306);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
-            this.radioButton4.TabIndex = 8;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton1";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.rb_married.AutoSize = true;
+            this.rb_married.Location = new System.Drawing.Point(128, 306);
+            this.rb_married.Name = "rb_married";
+            this.rb_married.Size = new System.Drawing.Size(42, 17);
+            this.rb_married.TabIndex = 8;
+            this.rb_married.TabStop = true;
+            this.rb_married.Text = "Evli";
+            this.rb_married.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // rb_unmarried
             // 
-            this.radioButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rb_unmarried.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(219, 306);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(85, 17);
-            this.radioButton5.TabIndex = 9;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "radioButton1";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.rb_unmarried.AutoSize = true;
+            this.rb_unmarried.Location = new System.Drawing.Point(219, 306);
+            this.rb_unmarried.Name = "rb_unmarried";
+            this.rb_unmarried.Size = new System.Drawing.Size(53, 17);
+            this.rb_unmarried.TabIndex = 9;
+            this.rb_unmarried.TabStop = true;
+            this.rb_unmarried.Text = "Bekar";
+            this.rb_unmarried.UseVisualStyleBackColor = true;
             // 
-            // maskedTextBox3
+            // mtb_childNumber
             // 
-            this.maskedTextBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.mtb_childNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.maskedTextBox3.Location = new System.Drawing.Point(128, 344);
-            this.maskedTextBox3.Mask = "00";
-            this.maskedTextBox3.MaximumSize = new System.Drawing.Size(30, 20);
-            this.maskedTextBox3.MinimumSize = new System.Drawing.Size(25, 20);
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(25, 20);
-            this.maskedTextBox3.TabIndex = 11;
-            this.maskedTextBox3.ValidatingType = typeof(int);
+            this.mtb_childNumber.Location = new System.Drawing.Point(128, 344);
+            this.mtb_childNumber.Mask = "00";
+            this.mtb_childNumber.MaximumSize = new System.Drawing.Size(30, 20);
+            this.mtb_childNumber.MinimumSize = new System.Drawing.Size(25, 20);
+            this.mtb_childNumber.Name = "mtb_childNumber";
+            this.mtb_childNumber.Size = new System.Drawing.Size(25, 20);
+            this.mtb_childNumber.TabIndex = 11;
+            this.mtb_childNumber.ValidatingType = typeof(int);
             // 
-            // checkBox1
+            // cb_drivingYes
             // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cb_drivingYes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(128, 378);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(80, 17);
-            this.checkBox1.TabIndex = 12;
-            this.checkBox1.Text = "checkBox1";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cb_drivingYes.AutoSize = true;
+            this.cb_drivingYes.Location = new System.Drawing.Point(128, 378);
+            this.cb_drivingYes.Name = "cb_drivingYes";
+            this.cb_drivingYes.Size = new System.Drawing.Size(42, 17);
+            this.cb_drivingYes.TabIndex = 12;
+            this.cb_drivingYes.Text = "Var";
+            this.cb_drivingYes.UseVisualStyleBackColor = true;
             // 
-            // monthCalendar1
+            // mc_birthDate
             // 
-            this.monthCalendar1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.mc_birthDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.monthCalendar1.Location = new System.Drawing.Point(128, 446);
-            this.monthCalendar1.MaximumSize = new System.Drawing.Size(234, 162);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 15;
+            this.mc_birthDate.Location = new System.Drawing.Point(128, 446);
+            this.mc_birthDate.MaximumSize = new System.Drawing.Size(234, 162);
+            this.mc_birthDate.Name = "mc_birthDate";
+            this.mc_birthDate.TabIndex = 15;
             // 
-            // monthCalendar2
+            // mc_dateWorkStart
             // 
-            this.monthCalendar2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.mc_dateWorkStart.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.monthCalendar2.Location = new System.Drawing.Point(687, 13);
-            this.monthCalendar2.MaximumSize = new System.Drawing.Size(234, 162);
-            this.monthCalendar2.Name = "monthCalendar2";
-            this.monthCalendar2.TabIndex = 16;
+            this.mc_dateWorkStart.Location = new System.Drawing.Point(687, 13);
+            this.mc_dateWorkStart.MaximumSize = new System.Drawing.Size(234, 162);
+            this.mc_dateWorkStart.Name = "mc_dateWorkStart";
+            this.mc_dateWorkStart.TabIndex = 16;
             // 
-            // textBox3
+            // tb_adress
             // 
-            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.tb_adress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox3.Location = new System.Drawing.Point(128, 149);
-            this.textBox3.MaximumSize = new System.Drawing.Size(250, 100);
-            this.textBox3.MinimumSize = new System.Drawing.Size(200, 95);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 95);
-            this.textBox3.TabIndex = 5;
+            this.tb_adress.Location = new System.Drawing.Point(128, 149);
+            this.tb_adress.MaximumSize = new System.Drawing.Size(250, 100);
+            this.tb_adress.MinimumSize = new System.Drawing.Size(200, 95);
+            this.tb_adress.Multiline = true;
+            this.tb_adress.Name = "tb_adress";
+            this.tb_adress.Size = new System.Drawing.Size(200, 95);
+            this.tb_adress.TabIndex = 5;
             // 
-            // checkBox2
+            // cb_drivingNo
             // 
-            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.cb_drivingNo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(214, 378);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
-            this.checkBox2.TabIndex = 13;
-            this.checkBox2.Text = "checkBox1";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cb_drivingNo.AutoSize = true;
+            this.cb_drivingNo.Location = new System.Drawing.Point(214, 378);
+            this.cb_drivingNo.Name = "cb_drivingNo";
+            this.cb_drivingNo.Size = new System.Drawing.Size(45, 17);
+            this.cb_drivingNo.TabIndex = 13;
+            this.cb_drivingNo.Text = "Yok";
+            this.cb_drivingNo.UseVisualStyleBackColor = true;
             // 
-            // comboBox3
+            // cb_departments
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(687, 216);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(121, 21);
-            this.comboBox3.TabIndex = 17;
+            this.cb_departments.FormattingEnabled = true;
+            this.cb_departments.Location = new System.Drawing.Point(687, 216);
+            this.cb_departments.Name = "cb_departments";
+            this.cb_departments.Size = new System.Drawing.Size(121, 21);
+            this.cb_departments.TabIndex = 17;
+            // 
+            // btn_add
+            // 
+            this.btn_add.Location = new System.Drawing.Point(687, 253);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.Size = new System.Drawing.Size(121, 47);
+            this.btn_add.TabIndex = 18;
+            this.btn_add.Text = "button1";
+            this.btn_add.UseVisualStyleBackColor = true;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // PersonalAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1069, 638);
-            this.Controls.Add(this.comboBox3);
-            this.Controls.Add(this.monthCalendar2);
-            this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.radioButton5);
-            this.Controls.Add(this.radioButton4);
-            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.btn_add);
+            this.Controls.Add(this.cb_departments);
+            this.Controls.Add(this.mc_dateWorkStart);
+            this.Controls.Add(this.mc_birthDate);
+            this.Controls.Add(this.cb_drivingNo);
+            this.Controls.Add(this.cb_drivingYes);
+            this.Controls.Add(this.rb_unmarried);
+            this.Controls.Add(this.rb_married);
+            this.Controls.Add(this.rb_widow);
             this.Controls.Add(this.radioButton3);
             this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.maskedTextBox2);
-            this.Controls.Add(this.maskedTextBox3);
-            this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cb_drivingLicence);
+            this.Controls.Add(this.cb_placeBirth);
+            this.Controls.Add(this.mtb_phoneNumber);
+            this.Controls.Add(this.mtb_childNumber);
+            this.Controls.Add(this.tb_nationalNumber);
+            this.Controls.Add(this.tb_surname);
+            this.Controls.Add(this.tb_adress);
+            this.Controls.Add(this.tb_name);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label13);
@@ -518,23 +530,24 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox tb_name;
+        private System.Windows.Forms.TextBox tb_surname;
+        private System.Windows.Forms.MaskedTextBox tb_nationalNumber;
+        private System.Windows.Forms.MaskedTextBox mtb_phoneNumber;
+        private System.Windows.Forms.ComboBox cb_placeBirth;
+        private System.Windows.Forms.ComboBox cb_drivingLicence;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rb_widow;
         private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.MonthCalendar monthCalendar2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.RadioButton rb_married;
+        private System.Windows.Forms.RadioButton rb_unmarried;
+        private System.Windows.Forms.MaskedTextBox mtb_childNumber;
+        private System.Windows.Forms.CheckBox cb_drivingYes;
+        private System.Windows.Forms.MonthCalendar mc_birthDate;
+        private System.Windows.Forms.MonthCalendar mc_dateWorkStart;
+        private System.Windows.Forms.TextBox tb_adress;
+        private System.Windows.Forms.CheckBox cb_drivingNo;
+        private System.Windows.Forms.ComboBox cb_departments;
+        private System.Windows.Forms.Button btn_add;
     }
 }

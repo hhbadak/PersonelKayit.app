@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using static System.Net.WebRequestMethods;
 
 namespace PersonelKayit
 {
@@ -15,6 +17,15 @@ namespace PersonelKayit
         public PersonalAdd()
         {
             InitializeComponent();
+        }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            string personalFileName = tb_name.Text + " " + tb_surname.Text;
+            string fileName = personalFileName;
+            string filePath = @"C:\Personal";
+            StreamWriter sw = sw = System.IO.File.CreateText(filePath + "//" + personalFileName + ".txt");
+            sw.Close();
         }
     }
 }
