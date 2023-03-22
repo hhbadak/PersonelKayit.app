@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_name = new System.Windows.Forms.Label();
+            this.lbl_surname = new System.Windows.Forms.Label();
+            this.lbl_nationalNumber = new System.Windows.Forms.Label();
+            this.lbl_phoneNumber = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_placeBirth = new System.Windows.Forms.Label();
+            this.lbl_adress = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -47,72 +46,77 @@
             this.mtb_phoneNumber = new System.Windows.Forms.MaskedTextBox();
             this.cb_placeBirth = new System.Windows.Forms.ComboBox();
             this.cb_drivingLicence = new System.Windows.Forms.ComboBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.rb_woman = new System.Windows.Forms.RadioButton();
             this.rb_widow = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.rb_man = new System.Windows.Forms.RadioButton();
             this.rb_married = new System.Windows.Forms.RadioButton();
             this.rb_unmarried = new System.Windows.Forms.RadioButton();
             this.mtb_childNumber = new System.Windows.Forms.MaskedTextBox();
             this.cb_drivingYes = new System.Windows.Forms.CheckBox();
-            this.mc_birthDate = new System.Windows.Forms.MonthCalendar();
-            this.mc_dateWorkStart = new System.Windows.Forms.MonthCalendar();
             this.tb_adress = new System.Windows.Forms.TextBox();
             this.cb_drivingNo = new System.Windows.Forms.CheckBox();
             this.cb_departments = new System.Windows.Forms.ComboBox();
             this.btn_add = new System.Windows.Forms.Button();
+            this.mtb_birthDate = new System.Windows.Forms.MaskedTextBox();
+            this.mtb_workStart = new System.Windows.Forms.MaskedTextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbl_gender = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lbl_name
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_name.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(13, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(30, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Adı";
+            this.lbl_name.AutoSize = true;
+            this.lbl_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_name.Location = new System.Drawing.Point(13, 13);
+            this.lbl_name.Name = "lbl_name";
+            this.lbl_name.Size = new System.Drawing.Size(30, 16);
+            this.lbl_name.TabIndex = 0;
+            this.lbl_name.Text = "Adı";
             // 
-            // label2
+            // lbl_surname
             // 
-            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_surname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(13, 39);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 16);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Soyadı";
+            this.lbl_surname.AutoSize = true;
+            this.lbl_surname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_surname.Location = new System.Drawing.Point(13, 39);
+            this.lbl_surname.Name = "lbl_surname";
+            this.lbl_surname.Size = new System.Drawing.Size(56, 16);
+            this.lbl_surname.TabIndex = 0;
+            this.lbl_surname.Text = "Soyadı";
             // 
-            // label3
+            // lbl_nationalNumber
             // 
-            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_nationalNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(13, 64);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "TC Kimlik No";
+            this.lbl_nationalNumber.AutoSize = true;
+            this.lbl_nationalNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_nationalNumber.Location = new System.Drawing.Point(13, 64);
+            this.lbl_nationalNumber.Name = "lbl_nationalNumber";
+            this.lbl_nationalNumber.Size = new System.Drawing.Size(96, 16);
+            this.lbl_nationalNumber.TabIndex = 0;
+            this.lbl_nationalNumber.Text = "TC Kimlik No";
             // 
-            // label4
+            // lbl_phoneNumber
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_phoneNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(13, 89);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 16);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Telefon No";
+            this.lbl_phoneNumber.AutoSize = true;
+            this.lbl_phoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_phoneNumber.Location = new System.Drawing.Point(13, 89);
+            this.lbl_phoneNumber.Name = "lbl_phoneNumber";
+            this.lbl_phoneNumber.Size = new System.Drawing.Size(84, 16);
+            this.lbl_phoneNumber.TabIndex = 0;
+            this.lbl_phoneNumber.Text = "Telefon No";
             // 
             // label5
             // 
@@ -121,50 +125,37 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(538, 216);
+            this.label5.Location = new System.Drawing.Point(538, 64);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(83, 16);
             this.label5.TabIndex = 0;
             this.label5.Text = "Departman";
             // 
-            // label6
+            // lbl_placeBirth
             // 
-            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_placeBirth.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(13, 117);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 16);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Doğum Yeri";
+            this.lbl_placeBirth.AutoSize = true;
+            this.lbl_placeBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_placeBirth.Location = new System.Drawing.Point(13, 117);
+            this.lbl_placeBirth.Name = "lbl_placeBirth";
+            this.lbl_placeBirth.Size = new System.Drawing.Size(88, 16);
+            this.lbl_placeBirth.TabIndex = 0;
+            this.lbl_placeBirth.Text = "Doğum Yeri";
             // 
-            // label7
+            // lbl_adress
             // 
-            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_adress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(13, 149);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 16);
-            this.label7.TabIndex = 0;
-            this.label7.Text = "Adres";
-            // 
-            // label8
-            // 
-            this.label8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(13, 261);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 16);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Cinsiyet";
+            this.lbl_adress.AutoSize = true;
+            this.lbl_adress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_adress.Location = new System.Drawing.Point(13, 149);
+            this.lbl_adress.Name = "lbl_adress";
+            this.lbl_adress.Size = new System.Drawing.Size(48, 16);
+            this.lbl_adress.TabIndex = 0;
+            this.lbl_adress.Text = "Adres";
             // 
             // label9
             // 
@@ -173,7 +164,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(13, 307);
+            this.label9.Location = new System.Drawing.Point(-3, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(90, 16);
             this.label9.TabIndex = 0;
@@ -309,19 +300,19 @@
             this.cb_drivingLicence.Size = new System.Drawing.Size(278, 21);
             this.cb_drivingLicence.TabIndex = 14;
             // 
-            // radioButton1
+            // rb_woman
             // 
-            this.radioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rb_woman.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(128, 260);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(52, 17);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Kadın";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rb_woman.AutoSize = true;
+            this.rb_woman.Location = new System.Drawing.Point(15, 19);
+            this.rb_woman.Name = "rb_woman";
+            this.rb_woman.Size = new System.Drawing.Size(52, 17);
+            this.rb_woman.TabIndex = 6;
+            this.rb_woman.TabStop = true;
+            this.rb_woman.Text = "Kadın";
+            this.rb_woman.UseVisualStyleBackColor = true;
             // 
             // rb_widow
             // 
@@ -329,7 +320,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rb_widow.AutoSize = true;
-            this.rb_widow.Location = new System.Drawing.Point(310, 306);
+            this.rb_widow.Location = new System.Drawing.Point(158, 22);
             this.rb_widow.Name = "rb_widow";
             this.rb_widow.Size = new System.Drawing.Size(41, 17);
             this.rb_widow.TabIndex = 10;
@@ -337,19 +328,19 @@
             this.rb_widow.Text = "Dul";
             this.rb_widow.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // rb_man
             // 
-            this.radioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.rb_man.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(219, 260);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(53, 17);
-            this.radioButton3.TabIndex = 7;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Erkek";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.rb_man.AutoSize = true;
+            this.rb_man.Location = new System.Drawing.Point(106, 19);
+            this.rb_man.Name = "rb_man";
+            this.rb_man.Size = new System.Drawing.Size(53, 17);
+            this.rb_man.TabIndex = 7;
+            this.rb_man.TabStop = true;
+            this.rb_man.Text = "Erkek";
+            this.rb_man.UseVisualStyleBackColor = true;
             // 
             // rb_married
             // 
@@ -357,7 +348,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rb_married.AutoSize = true;
-            this.rb_married.Location = new System.Drawing.Point(128, 306);
+            this.rb_married.Location = new System.Drawing.Point(15, 23);
             this.rb_married.Name = "rb_married";
             this.rb_married.Size = new System.Drawing.Size(42, 17);
             this.rb_married.TabIndex = 8;
@@ -371,7 +362,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rb_unmarried.AutoSize = true;
-            this.rb_unmarried.Location = new System.Drawing.Point(219, 306);
+            this.rb_unmarried.Location = new System.Drawing.Point(84, 22);
             this.rb_unmarried.Name = "rb_unmarried";
             this.rb_unmarried.Size = new System.Drawing.Size(53, 17);
             this.rb_unmarried.TabIndex = 9;
@@ -406,26 +397,6 @@
             this.cb_drivingYes.Text = "Var";
             this.cb_drivingYes.UseVisualStyleBackColor = true;
             // 
-            // mc_birthDate
-            // 
-            this.mc_birthDate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.mc_birthDate.Location = new System.Drawing.Point(128, 446);
-            this.mc_birthDate.MaximumSize = new System.Drawing.Size(234, 162);
-            this.mc_birthDate.Name = "mc_birthDate";
-            this.mc_birthDate.TabIndex = 15;
-            // 
-            // mc_dateWorkStart
-            // 
-            this.mc_dateWorkStart.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.mc_dateWorkStart.Location = new System.Drawing.Point(687, 13);
-            this.mc_dateWorkStart.MaximumSize = new System.Drawing.Size(234, 162);
-            this.mc_dateWorkStart.Name = "mc_dateWorkStart";
-            this.mc_dateWorkStart.TabIndex = 16;
-            // 
             // tb_adress
             // 
             this.tb_adress.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -455,37 +426,95 @@
             // cb_departments
             // 
             this.cb_departments.FormattingEnabled = true;
-            this.cb_departments.Location = new System.Drawing.Point(687, 216);
+            this.cb_departments.Location = new System.Drawing.Point(687, 64);
             this.cb_departments.Name = "cb_departments";
             this.cb_departments.Size = new System.Drawing.Size(121, 21);
             this.cb_departments.TabIndex = 17;
             // 
             // btn_add
             // 
-            this.btn_add.Location = new System.Drawing.Point(687, 253);
+            this.btn_add.Location = new System.Drawing.Point(687, 101);
             this.btn_add.Name = "btn_add";
             this.btn_add.Size = new System.Drawing.Size(121, 47);
             this.btn_add.TabIndex = 18;
-            this.btn_add.Text = "button1";
+            this.btn_add.Text = "Ekle";
             this.btn_add.UseVisualStyleBackColor = true;
             this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
+            // 
+            // mtb_birthDate
+            // 
+            this.mtb_birthDate.Location = new System.Drawing.Point(128, 441);
+            this.mtb_birthDate.Mask = "00/00/0000";
+            this.mtb_birthDate.MaximumSize = new System.Drawing.Size(90, 20);
+            this.mtb_birthDate.MinimumSize = new System.Drawing.Size(75, 20);
+            this.mtb_birthDate.Name = "mtb_birthDate";
+            this.mtb_birthDate.Size = new System.Drawing.Size(75, 20);
+            this.mtb_birthDate.TabIndex = 15;
+            this.mtb_birthDate.ValidatingType = typeof(System.DateTime);
+            // 
+            // mtb_workStart
+            // 
+            this.mtb_workStart.Location = new System.Drawing.Point(687, 14);
+            this.mtb_workStart.Mask = "00/00/0000";
+            this.mtb_workStart.MaximumSize = new System.Drawing.Size(90, 20);
+            this.mtb_workStart.MinimumSize = new System.Drawing.Size(75, 20);
+            this.mtb_workStart.Name = "mtb_workStart";
+            this.mtb_workStart.Size = new System.Drawing.Size(75, 20);
+            this.mtb_workStart.TabIndex = 16;
+            this.mtb_workStart.ValidatingType = typeof(System.DateTime);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.lbl_gender);
+            this.groupBox1.Controls.Add(this.rb_woman);
+            this.groupBox1.Controls.Add(this.rb_man);
+            this.groupBox1.Location = new System.Drawing.Point(16, 253);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(159, 42);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // lbl_gender
+            // 
+            this.lbl_gender.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_gender.AutoSize = true;
+            this.lbl_gender.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_gender.Location = new System.Drawing.Point(-3, 0);
+            this.lbl_gender.Name = "lbl_gender";
+            this.lbl_gender.Size = new System.Drawing.Size(62, 16);
+            this.lbl_gender.TabIndex = 0;
+            this.lbl_gender.Text = "Cinsiyet";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.rb_married);
+            this.groupBox2.Controls.Add(this.rb_widow);
+            this.groupBox2.Controls.Add(this.rb_unmarried);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Location = new System.Drawing.Point(16, 298);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(243, 40);
+            this.groupBox2.TabIndex = 20;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // PersonalAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1069, 638);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.mtb_workStart);
+            this.Controls.Add(this.mtb_birthDate);
             this.Controls.Add(this.btn_add);
             this.Controls.Add(this.cb_departments);
-            this.Controls.Add(this.mc_dateWorkStart);
-            this.Controls.Add(this.mc_birthDate);
             this.Controls.Add(this.cb_drivingNo);
             this.Controls.Add(this.cb_drivingYes);
-            this.Controls.Add(this.rb_unmarried);
-            this.Controls.Add(this.rb_married);
-            this.Controls.Add(this.rb_widow);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.cb_drivingLicence);
             this.Controls.Add(this.cb_placeBirth);
             this.Controls.Add(this.mtb_phoneNumber);
@@ -495,21 +524,23 @@
             this.Controls.Add(this.tb_adress);
             this.Controls.Add(this.tb_name);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.lbl_phoneNumber);
+            this.Controls.Add(this.lbl_adress);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_nationalNumber);
+            this.Controls.Add(this.lbl_placeBirth);
+            this.Controls.Add(this.lbl_surname);
+            this.Controls.Add(this.lbl_name);
             this.MinimumSize = new System.Drawing.Size(1085, 677);
             this.Name = "PersonalAdd";
             this.Text = "Personel Ekleme Sayfası";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -517,14 +548,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbl_name;
+        private System.Windows.Forms.Label lbl_surname;
+        private System.Windows.Forms.Label lbl_nationalNumber;
+        private System.Windows.Forms.Label lbl_phoneNumber;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lbl_placeBirth;
+        private System.Windows.Forms.Label lbl_adress;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -536,18 +566,21 @@
         private System.Windows.Forms.MaskedTextBox mtb_phoneNumber;
         private System.Windows.Forms.ComboBox cb_placeBirth;
         private System.Windows.Forms.ComboBox cb_drivingLicence;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton rb_woman;
         private System.Windows.Forms.RadioButton rb_widow;
-        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton rb_man;
         private System.Windows.Forms.RadioButton rb_married;
         private System.Windows.Forms.RadioButton rb_unmarried;
         private System.Windows.Forms.MaskedTextBox mtb_childNumber;
         private System.Windows.Forms.CheckBox cb_drivingYes;
-        private System.Windows.Forms.MonthCalendar mc_birthDate;
-        private System.Windows.Forms.MonthCalendar mc_dateWorkStart;
         private System.Windows.Forms.TextBox tb_adress;
         private System.Windows.Forms.CheckBox cb_drivingNo;
         private System.Windows.Forms.ComboBox cb_departments;
         private System.Windows.Forms.Button btn_add;
+        private System.Windows.Forms.MaskedTextBox mtb_birthDate;
+        private System.Windows.Forms.MaskedTextBox mtb_workStart;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label lbl_gender;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
