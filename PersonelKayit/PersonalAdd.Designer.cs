@@ -32,14 +32,14 @@
             this.lbl_surname = new System.Windows.Forms.Label();
             this.lbl_nationalNumber = new System.Windows.Forms.Label();
             this.lbl_phoneNumber = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_departments = new System.Windows.Forms.Label();
             this.lbl_placeBirth = new System.Windows.Forms.Label();
             this.lbl_adress = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
+            this.lbl_maritalStatus = new System.Windows.Forms.Label();
+            this.lbl_childrenNumber = new System.Windows.Forms.Label();
+            this.lbl_drivingClass = new System.Windows.Forms.Label();
+            this.lbl_dateBirth = new System.Windows.Forms.Label();
+            this.lbl_dateStart = new System.Windows.Forms.Label();
             this.tb_name = new System.Windows.Forms.TextBox();
             this.tb_surname = new System.Windows.Forms.TextBox();
             this.tb_nationalNumber = new System.Windows.Forms.MaskedTextBox();
@@ -59,11 +59,11 @@
             this.btn_add = new System.Windows.Forms.Button();
             this.mtb_birthDate = new System.Windows.Forms.MaskedTextBox();
             this.mtb_workStart = new System.Windows.Forms.MaskedTextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gb_gender = new System.Windows.Forms.GroupBox();
             this.lbl_gender = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.gb_maritalStatus = new System.Windows.Forms.GroupBox();
+            this.gb_gender.SuspendLayout();
+            this.gb_maritalStatus.SuspendLayout();
             this.SuspendLayout();
             // 
             // lbl_name
@@ -118,18 +118,18 @@
             this.lbl_phoneNumber.TabIndex = 0;
             this.lbl_phoneNumber.Text = "Telefon No";
             // 
-            // label5
+            // lbl_departments
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_departments.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(538, 64);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 16);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Departman";
+            this.lbl_departments.AutoSize = true;
+            this.lbl_departments.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_departments.Location = new System.Drawing.Point(538, 64);
+            this.lbl_departments.Name = "lbl_departments";
+            this.lbl_departments.Size = new System.Drawing.Size(83, 16);
+            this.lbl_departments.TabIndex = 0;
+            this.lbl_departments.Text = "Departman";
             // 
             // lbl_placeBirth
             // 
@@ -157,70 +157,70 @@
             this.lbl_adress.TabIndex = 0;
             this.lbl_adress.Text = "Adres";
             // 
-            // label9
+            // lbl_maritalStatus
             // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_maritalStatus.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(-3, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 16);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Medeni Hâli";
+            this.lbl_maritalStatus.AutoSize = true;
+            this.lbl_maritalStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_maritalStatus.Location = new System.Drawing.Point(-3, 0);
+            this.lbl_maritalStatus.Name = "lbl_maritalStatus";
+            this.lbl_maritalStatus.Size = new System.Drawing.Size(90, 16);
+            this.lbl_maritalStatus.TabIndex = 0;
+            this.lbl_maritalStatus.Text = "Medeni Hâli";
             // 
-            // label10
+            // lbl_childrenNumber
             // 
-            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_childrenNumber.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(13, 344);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(97, 16);
-            this.label10.TabIndex = 0;
-            this.label10.Text = "Çocuk Sayısı";
+            this.lbl_childrenNumber.AutoSize = true;
+            this.lbl_childrenNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_childrenNumber.Location = new System.Drawing.Point(13, 344);
+            this.lbl_childrenNumber.Name = "lbl_childrenNumber";
+            this.lbl_childrenNumber.Size = new System.Drawing.Size(97, 16);
+            this.lbl_childrenNumber.TabIndex = 0;
+            this.lbl_childrenNumber.Text = "Çocuk Sayısı";
             // 
-            // label11
+            // lbl_drivingClass
             // 
-            this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_drivingClass.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(13, 379);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(92, 16);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "Ehliyet Sınıfı";
+            this.lbl_drivingClass.AutoSize = true;
+            this.lbl_drivingClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_drivingClass.Location = new System.Drawing.Point(13, 379);
+            this.lbl_drivingClass.Name = "lbl_drivingClass";
+            this.lbl_drivingClass.Size = new System.Drawing.Size(92, 16);
+            this.lbl_drivingClass.TabIndex = 0;
+            this.lbl_drivingClass.Text = "Ehliyet Sınıfı";
             // 
-            // label12
+            // lbl_dateBirth
             // 
-            this.label12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_dateBirth.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(13, 446);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(100, 16);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Doğum Tarihi";
+            this.lbl_dateBirth.AutoSize = true;
+            this.lbl_dateBirth.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_dateBirth.Location = new System.Drawing.Point(13, 446);
+            this.lbl_dateBirth.Name = "lbl_dateBirth";
+            this.lbl_dateBirth.Size = new System.Drawing.Size(100, 16);
+            this.lbl_dateBirth.TabIndex = 0;
+            this.lbl_dateBirth.Text = "Doğum Tarihi";
             // 
-            // label13
+            // lbl_dateStart
             // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbl_dateStart.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label13.Location = new System.Drawing.Point(538, 14);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(137, 16);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "İşe Başlama Tarihi";
+            this.lbl_dateStart.AutoSize = true;
+            this.lbl_dateStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lbl_dateStart.Location = new System.Drawing.Point(538, 14);
+            this.lbl_dateStart.Name = "lbl_dateStart";
+            this.lbl_dateStart.Size = new System.Drawing.Size(137, 16);
+            this.lbl_dateStart.TabIndex = 0;
+            this.lbl_dateStart.Text = "İşe Başlama Tarihi";
             // 
             // tb_name
             // 
@@ -280,6 +280,88 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cb_placeBirth.FormattingEnabled = true;
+            this.cb_placeBirth.Items.AddRange(new object[] {
+            "ADANA",
+            "ADIYAMAN",
+            "AFYONKARAHİSAR",
+            "AĞRI",
+            "AKSARAY",
+            "AMASYA",
+            "ANKARA",
+            "ANTALYA",
+            "ARDAHAN",
+            "ARTVİN",
+            "AYDIN",
+            "BALIKESİR",
+            "BARTIN",
+            "BATMAN",
+            "BAYBURT",
+            "BİLECİK",
+            "BİNGÖL",
+            "BİTLİS",
+            "BOLU",
+            "BURDUR",
+            "BURSA",
+            "ÇANAKKALE",
+            "ÇANKIRI",
+            "ÇORUM",
+            "DENİZLİ",
+            "DİYARBAKIR",
+            "DÜZCE",
+            "EDİRNE",
+            "ELAZIĞ",
+            "ERZİNCAN",
+            "ERZURUM",
+            "ESKİŞEHİR",
+            "GAZİANTEP",
+            "GİRESUN",
+            "GÜMÜŞHANE",
+            "HAKKARİ",
+            "HATAY",
+            "IĞDIR",
+            "ISPARTA",
+            "İSTANBUL",
+            "İZMİR",
+            "KAHRAMANMARAŞ",
+            "KARABÜK",
+            "KARAMAN",
+            "KARS",
+            "KASTAMONU",
+            "KAYSERİ",
+            "KIRIKKALE",
+            "KIRKLARELİ",
+            "KIRŞEHİR",
+            "KİLİS",
+            "KOCAELİ",
+            "KONYA",
+            "KÜTAHYA",
+            "MALATYA",
+            "MANİSA",
+            "MARDİN",
+            "MERSİN",
+            "MUĞLA",
+            "MUŞ",
+            "NEVŞEHİR",
+            "NİĞDE",
+            "ORDU",
+            "OSMANİYE",
+            "RİZE",
+            "SAKARYA",
+            "SAMSUN",
+            "SİİRT",
+            "SİNOP",
+            "SİVAS",
+            "ŞANLIURFA",
+            "ŞIRNAK",
+            "TEKİRDAĞ",
+            "TOKAT",
+            "TRABZON",
+            "TUNCELİ",
+            "UŞAK",
+            "VAN",
+            "YALOVA",
+            "YOZGAT",
+            "ZONGULDAK"});
             this.cb_placeBirth.Location = new System.Drawing.Point(128, 117);
             this.cb_placeBirth.MaximumSize = new System.Drawing.Size(150, 0);
             this.cb_placeBirth.MinimumSize = new System.Drawing.Size(100, 0);
@@ -292,7 +374,25 @@
             this.cb_drivingLicence.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.cb_drivingLicence.Enabled = false;
             this.cb_drivingLicence.FormattingEnabled = true;
+            this.cb_drivingLicence.Items.AddRange(new object[] {
+            "M-\tMotorlu Bisiklet",
+            "A1-\t125 cc’ye Kadar Motosiklet",
+            "A2-\t35 kw’yi Geçmeyen Motosiklet",
+            "A-\t35 kw’yi Geçen Motosiklet",
+            "B1-\t4 Tekerli Motosiklet",
+            "B-\tOtomobil ve Kamyonet",
+            "BE-\tRömorklu Otomobil ve Kamyonet",
+            "C1-\t7500 kg’a Kadar Kamyon ve Çekici",
+            "C1E-\t12000 KG’A Kadar Kamyon ve Çekici",
+            "C-\tKamyon ve Çekici",
+            "CE-\tRömorklu Kamyon ve Çekici",
+            "D1-\tMinibüs",
+            "D1E-\tRömorklu Minibüs",
+            "D-\tMinibüs ve Otobüs",
+            "DE-\tRömorklu Minibüs ve Otobüs",
+            "F-\tLastik Tekerlekli Traktör"});
             this.cb_drivingLicence.Location = new System.Drawing.Point(16, 401);
             this.cb_drivingLicence.MaximumSize = new System.Drawing.Size(300, 0);
             this.cb_drivingLicence.MinimumSize = new System.Drawing.Size(278, 0);
@@ -396,6 +496,7 @@
             this.cb_drivingYes.TabIndex = 12;
             this.cb_drivingYes.Text = "Var";
             this.cb_drivingYes.UseVisualStyleBackColor = true;
+            this.cb_drivingYes.CheckedChanged += new System.EventHandler(this.cb_drivingYes_CheckedChanged);
             // 
             // tb_adress
             // 
@@ -426,6 +527,17 @@
             // cb_departments
             // 
             this.cb_departments.FormattingEnabled = true;
+            this.cb_departments.Items.AddRange(new object[] {
+            "Ar-Ge",
+            "Bilgi İşlem",
+            "Depo-Sevkiyat",
+            "İnsan Kaynakları",
+            "Kalite-Güvence",
+            "Planlama ve Ürün Yönetimi",
+            "Satın Alma",
+            "Üretim",
+            "Ür-Ge",
+            "Ürün Satış"});
             this.cb_departments.Location = new System.Drawing.Point(687, 64);
             this.cb_departments.Name = "cb_departments";
             this.cb_departments.Size = new System.Drawing.Size(121, 21);
@@ -463,17 +575,17 @@
             this.mtb_workStart.TabIndex = 16;
             this.mtb_workStart.ValidatingType = typeof(System.DateTime);
             // 
-            // groupBox1
+            // gb_gender
             // 
-            this.groupBox1.Controls.Add(this.lbl_gender);
-            this.groupBox1.Controls.Add(this.rb_woman);
-            this.groupBox1.Controls.Add(this.rb_man);
-            this.groupBox1.Location = new System.Drawing.Point(16, 253);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(159, 42);
-            this.groupBox1.TabIndex = 19;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.gb_gender.Controls.Add(this.lbl_gender);
+            this.gb_gender.Controls.Add(this.rb_woman);
+            this.gb_gender.Controls.Add(this.rb_man);
+            this.gb_gender.Location = new System.Drawing.Point(16, 253);
+            this.gb_gender.Name = "gb_gender";
+            this.gb_gender.Size = new System.Drawing.Size(159, 42);
+            this.gb_gender.TabIndex = 19;
+            this.gb_gender.TabStop = false;
+            this.gb_gender.Text = "groupBox1";
             // 
             // lbl_gender
             // 
@@ -488,27 +600,26 @@
             this.lbl_gender.TabIndex = 0;
             this.lbl_gender.Text = "Cinsiyet";
             // 
-            // groupBox2
+            // gb_maritalStatus
             // 
-            this.groupBox2.Controls.Add(this.rb_married);
-            this.groupBox2.Controls.Add(this.rb_widow);
-            this.groupBox2.Controls.Add(this.rb_unmarried);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Location = new System.Drawing.Point(16, 298);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(243, 40);
-            this.groupBox2.TabIndex = 20;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            this.gb_maritalStatus.Controls.Add(this.rb_married);
+            this.gb_maritalStatus.Controls.Add(this.rb_widow);
+            this.gb_maritalStatus.Controls.Add(this.rb_unmarried);
+            this.gb_maritalStatus.Controls.Add(this.lbl_maritalStatus);
+            this.gb_maritalStatus.Location = new System.Drawing.Point(16, 298);
+            this.gb_maritalStatus.Name = "gb_maritalStatus";
+            this.gb_maritalStatus.Size = new System.Drawing.Size(243, 40);
+            this.gb_maritalStatus.TabIndex = 20;
+            this.gb_maritalStatus.TabStop = false;
+            this.gb_maritalStatus.Text = "groupBox2";
             // 
             // PersonalAdd
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1069, 638);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gb_maritalStatus);
+            this.Controls.Add(this.gb_gender);
             this.Controls.Add(this.mtb_workStart);
             this.Controls.Add(this.mtb_birthDate);
             this.Controls.Add(this.btn_add);
@@ -523,13 +634,13 @@
             this.Controls.Add(this.tb_surname);
             this.Controls.Add(this.tb_adress);
             this.Controls.Add(this.tb_name);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.lbl_childrenNumber);
+            this.Controls.Add(this.lbl_dateStart);
+            this.Controls.Add(this.lbl_departments);
+            this.Controls.Add(this.lbl_dateBirth);
             this.Controls.Add(this.lbl_phoneNumber);
             this.Controls.Add(this.lbl_adress);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lbl_drivingClass);
             this.Controls.Add(this.lbl_nationalNumber);
             this.Controls.Add(this.lbl_placeBirth);
             this.Controls.Add(this.lbl_surname);
@@ -537,10 +648,10 @@
             this.MinimumSize = new System.Drawing.Size(1085, 677);
             this.Name = "PersonalAdd";
             this.Text = "Personel Ekleme Sayfası";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.gb_gender.ResumeLayout(false);
+            this.gb_gender.PerformLayout();
+            this.gb_maritalStatus.ResumeLayout(false);
+            this.gb_maritalStatus.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -552,14 +663,14 @@
         private System.Windows.Forms.Label lbl_surname;
         private System.Windows.Forms.Label lbl_nationalNumber;
         private System.Windows.Forms.Label lbl_phoneNumber;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lbl_departments;
         private System.Windows.Forms.Label lbl_placeBirth;
         private System.Windows.Forms.Label lbl_adress;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label lbl_maritalStatus;
+        private System.Windows.Forms.Label lbl_childrenNumber;
+        private System.Windows.Forms.Label lbl_drivingClass;
+        private System.Windows.Forms.Label lbl_dateBirth;
+        private System.Windows.Forms.Label lbl_dateStart;
         private System.Windows.Forms.TextBox tb_name;
         private System.Windows.Forms.TextBox tb_surname;
         private System.Windows.Forms.MaskedTextBox tb_nationalNumber;
@@ -579,8 +690,8 @@
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.MaskedTextBox mtb_birthDate;
         private System.Windows.Forms.MaskedTextBox mtb_workStart;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gb_gender;
         private System.Windows.Forms.Label lbl_gender;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gb_maritalStatus;
     }
 }

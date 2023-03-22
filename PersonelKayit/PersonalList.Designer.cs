@@ -42,7 +42,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_personelList = new System.Windows.Forms.ComboBox();
             this.lbl_name = new System.Windows.Forms.Label();
             this.lbl_surname = new System.Windows.Forms.Label();
             this.lbl_nationalNumber = new System.Windows.Forms.Label();
@@ -237,15 +237,16 @@
             this.label14.TabIndex = 18;
             this.label14.Text = "Adı";
             // 
-            // comboBox1
+            // cb_personelList
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(154, 13);
-            this.comboBox1.MaximumSize = new System.Drawing.Size(200, 0);
-            this.comboBox1.MinimumSize = new System.Drawing.Size(188, 0);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(188, 21);
-            this.comboBox1.TabIndex = 1;
+            this.cb_personelList.FormattingEnabled = true;
+            this.cb_personelList.Location = new System.Drawing.Point(154, 13);
+            this.cb_personelList.MaximumSize = new System.Drawing.Size(200, 0);
+            this.cb_personelList.MinimumSize = new System.Drawing.Size(188, 0);
+            this.cb_personelList.Name = "cb_personelList";
+            this.cb_personelList.Size = new System.Drawing.Size(188, 21);
+            this.cb_personelList.TabIndex = 1;
+            this.cb_personelList.SelectedIndexChanged += new System.EventHandler(this.cb_personelList_SelectedIndexChanged);
             // 
             // lbl_name
             // 
@@ -395,7 +396,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label14);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_personelList);
             this.Controls.Add(this.label1);
             this.MinimumSize = new System.Drawing.Size(970, 683);
             this.Name = "PersonalList";
@@ -422,7 +423,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cb_personelList;
         private System.Windows.Forms.Label lbl_name;
         private System.Windows.Forms.Label lbl_surname;
         private System.Windows.Forms.Label lbl_nationalNumber;
